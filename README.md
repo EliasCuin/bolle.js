@@ -23,4 +23,5 @@ async function get() {
 }
 get();
 
+//PS: du brauchst dabb auch await
 ```
