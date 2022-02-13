@@ -1,6 +1,8 @@
 
-# Betterbolle.js Documentation
 ![A BetterBolle Project](https://i.ibb.co/zrKg2t6/better-Bolle-Logo-white.png)
+
+# Betterbolle.js Documentation
+
 A little Documentation about betterbolle.js
 
 
