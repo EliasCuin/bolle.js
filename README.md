@@ -15,7 +15,7 @@ As you will surely notice afterwards, many functionalities of this sdk are still
 ❗❗**There will therefore be a completely rewritten sdk in the future.**❗❗
 ## Installation
 
-Install betterbolle.js with npm
+Install betterbolle.js with npm (Will only work in the new version not yet released)
 
 ```bash
   npm install betterbolle.js
