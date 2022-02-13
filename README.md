@@ -1,27 +1,56 @@
-### bolle-sdk
-Wilkommen in der doc :)
+
+# Betterbolle.js Documentation
+A little Documentation about betterbolle.js
+
+
+
+
+## Before reading this
+
+This is not a project from Bolle Software (https://bolle-software.de/) - it is an unofficial project to automatically retrieve data from this website.
+
+
+As you will surely notice afterwards, many functionalities of this sdk are still missing. Also, the code is unfortunately very unclean.
+
+❗❗**There will therefore be a completely rewritten sdk in the future.**❗❗
+## Installation
+
+Install betterbolle.js with npm
+
+```bash
+  npm install betterbolle.js
+```
+
+
+## Usage
+
+Example with usage of "async" and "await" 
 
 ```javascript
-async function get() {
-  let bc = new bolleClient('mustermann.max, 'asas');
+async function main()() {
+ 
+  let client = new bolleClient("Account Name", 'Account Password');
   await bc.login();
 
-  let client = await bc.loadCourse(0);
-  // bestimmten Kurs laden
+  //Load the course with the ID 0. ID 0 represent all courses 
+  let course = await bc.loadCourse(0);
+
+  /* 
+    Load a course from a specific course id 
+    * You can find out a course's id by looking 
+      at BetterBolle's URL while on a course page
+  */
   
-  console.log(test.eintraege[0]);
-  //aus gespeicherten Kusen Eintrag laden
-  
-   console.log(test.eintraege[0]);
-  //aus gespeicherten Eintrag laden
+
+  eintrag.eintraege[0]
+  // Returns an array with the Course  
   
    console.log(test. simpleBolleGETRequest);
-  //gibt zürück ob man angemeldet ist
+  // Returns a bool that determines if your sessions is still valid
   
-   console.log(test. loadProfil());
-  //gibt alle USER-Daten im json Format zürück
+   console.log(test.loadProfil());
+  // Returns a JSON with all Profil informations. 
 }
-get();
+main()();
 
-//PS: du brauchst dann auch await
 ```
