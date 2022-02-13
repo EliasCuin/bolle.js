@@ -1,7 +1,7 @@
 
 
 
-# Betterbolle.js Documentation
+# Bolle.js Documentation
 
 A little Documentation about betterbolle.js
 
