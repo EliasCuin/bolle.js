@@ -1,8 +1,7 @@
 
 # Betterbolle.js Documentation
+![A BetterBolle Project](https://ibb.co/1LHNX4z)
 A little Documentation about betterbolle.js
-
-
 
 
 ## Before reading this
