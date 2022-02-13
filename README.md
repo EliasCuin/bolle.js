@@ -1,5 +1,5 @@
 
-![A BetterBolle Project](https://i.ibb.co/zrKg2t6/better-Bolle-Logo-white.png)
+
 
 # Betterbolle.js Documentation
 
@@ -55,3 +55,5 @@ async function main()() {
 main()();
 
 ```
+
+![A BetterBolle Project](https://i.ibb.co/zrKg2t6/better-Bolle-Logo-white.png)
